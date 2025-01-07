@@ -34,6 +34,10 @@ public class AnimalModel {
         this.description = description;
     }
 
+    public AnimalModel(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public int getPetID() {
         return petID;
     }
